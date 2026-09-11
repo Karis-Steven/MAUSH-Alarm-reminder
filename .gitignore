@@ -1,0 +1,11 @@
+bin/
+obj/
+.vs/
+.idea/
+.dotnet_cli/
+.nuget/
+TestResults/
+artifacts/
+录音存放/
+*.user
+*.suo

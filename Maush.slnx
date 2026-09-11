@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Maush.App/Maush.App.csproj" />
+    <Project Path="src/Maush.Core/Maush.Core.csproj" />
+    <Project Path="src/Maush.Infrastructure/Maush.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Maush.App.Tests/Maush.App.Tests.csproj" />
+    <Project Path="tests/Maush.Core.Tests/Maush.Core.Tests.csproj" />
+    <Project Path="tests/Maush.Infrastructure.Tests/Maush.Infrastructure.Tests.csproj" />
+  </Folder>
+</Solution>
