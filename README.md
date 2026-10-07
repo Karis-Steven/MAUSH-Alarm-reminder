@@ -1,4 +1,4 @@
-# MAUSH Alarm Reminder 1.0
+# MAUSH Alarm Reminder
 
 一个完全离线的 Windows 工作—休息循环计时器。支持自定义工作/休息时长、本地 M4A/WAV/MP3 提醒音、暂停/继续、无限循环、托盘后台运行。
 
