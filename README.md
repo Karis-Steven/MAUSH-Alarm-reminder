@@ -11,11 +11,9 @@
 5. 点击“开始”。窗口右上角 X 只会隐藏到托盘。
 6. 如需彻底退出，在托盘图标右键菜单中选择“退出程序”。
 
-程序数据默认保存在 `%LocalAppData%\Maush`。所选音频会复制到受管目录，因此原文件移动后不会影响应用。备份文件使用 `.maushbackup` 扩展名，包含设置和受管音频。
-
 ## 构建与测试
 
-需要 .NET 10 SDK 和 Windows 10/11：
+需要 .NET 10 SDK（GPT说的，我也不知道是啥） 和 Windows 10/11：
 
 ```powershell
 dotnet restore Maush.slnx --configfile NuGet.Config
@@ -29,7 +27,5 @@ dotnet publish src/Maush.App/Maush.App.csproj -c Release -r win-x64 --self-conta
 src/Maush.Core             状态机、计时运行时和音频协调规则
 src/Maush.Infrastructure   本地设置、受管音频、备份和恢复
 src/Maush.App              WPF 主窗口、音频播放器、托盘和系统事件
-tests/                     核心、存储与界面逻辑测试
-```
 
 产品行为和验收标准以 [PRD.md](PRD.md) 为准。
