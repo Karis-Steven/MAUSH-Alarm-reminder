@@ -1,10 +1,11 @@
 # MAUSH Alarm Reminder 1.0
 
-一个完全离线的 Windows 工作—休息循环计时器。支持自定义工作/休息时长、本地 M4A/WAV/MP3 提醒音、暂停/继续、无限循环、托盘后台运行，以及本地配置备份和恢复。
+一个完全离线的 Windows 工作—休息循环计时器。支持自定义工作/休息时长、本地 M4A/WAV/MP3 提醒音、暂停/继续、无限循环、托盘后台运行。
 
 ## 使用
 
 1. 启动 `Maush.App.exe`。
+   地址：C:\Users\acer\Desktop\MAUSH\artifacts\publish-no-backup
 2. 选择或输入工作与休息分钟数。
 3. 根据需要开启“持续循环”。
 4. 分别为“该休息了”和“继续工作”选择本地音频。
